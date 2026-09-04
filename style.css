@@ -15,6 +15,23 @@
   --dur: 150ms;
   --ease: cubic-bezier(.4,0,.2,1);
 }
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #f7f8fa;
+    --surface: rgba(255,255,255,.5);
+    --surface-solid: #ffffff;
+    --surface-hover: #e2e5ea;
+    --border: #e2e5ea;
+    --border-hover: #c7cbd3;
+    --heading: #1a1d24;
+    --text-body: #1a1d24;
+    --text-btn: #1a1d24;
+    --text-muted: #5c6270;
+    --text-faint: #7b8190;
+    --text-footer: #9aa0ac;
+    --accent: #3b6fe0;
+  }
+}
 
 /* --- reset (Tailwind Preflight, trimmed to what this page needs) --- */
 *, ::before, ::after { box-sizing: border-box; border: 0 solid; }
